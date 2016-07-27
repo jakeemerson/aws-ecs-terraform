@@ -1,0 +1,22 @@
+[
+    {
+        "name": "typeform-app",
+        "image": "174690129026.dkr.ecr.us-east-1.amazonaws.com/bdn/django_api:0.1",
+        "cpu": 10,
+        "memory": 512,
+        "links": [],
+        "portMappings": [
+            {
+                "containerPort": 8000,
+                "hostPort": 8000,
+                "protocol": "tcp"
+            }
+        ],
+        "essential": true,
+        "entryPoint": [],
+        "command": [],
+        "environment": [],
+        "mountPoints": [],
+        "volumesFrom": []
+    }
+]

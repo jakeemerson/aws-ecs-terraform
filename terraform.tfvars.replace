@@ -1,0 +1,4 @@
+aws_access_key = "<your key>"
+aws_secret_key = "<your secret>"
+aws_key_path = "<your key pair>.pem"
+aws_key_name = "<your key pair name>"

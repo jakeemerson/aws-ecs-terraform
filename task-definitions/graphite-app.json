@@ -1,0 +1,52 @@
+[
+    {
+        "name": "graphite-app",
+        "image": "hopsoft/graphite-statsd",
+        "cpu": 10,
+        "memory": 512,
+        "links": [],
+        "portMappings": [
+            {
+                "containerPort": 80,
+                "hostPort": 80,
+                "protocol": "tcp"
+            },
+            {
+                "containerPort": 2003,
+                "hostPort": 2003,
+                "protocol": "tcp"
+            },
+            {
+                "containerPort": 2004,
+                "hostPort": 2004,
+                "protocol": "tcp"
+            },
+            {
+                "containerPort": 2023,
+                "hostPort": 2023,
+                "protocol": "tcp"
+            },
+            {
+                "containerPort": 2024,
+                "hostPort": 2024,
+                "protocol": "tcp"
+            },
+            {
+                "containerPort": 8125,
+                "hostPort": 8125,
+                "protocol": "udp"
+            },
+            {
+                "containerPort": 8126,
+                "hostPort": 8126,
+                "protocol": "tcp"
+            }
+        ],
+        "essential": true,
+        "entryPoint": [],
+        "command": [],
+        "environment": [],
+        "mountPoints": [],
+        "volumesFrom": []
+    }
+]
